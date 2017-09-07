@@ -1,0 +1,20 @@
+#!/bin/sh
+
+#安装npm包
+npm install
+
+#生成静态文件
+hexo generate
+
+#复制文件夹
+mv -f ./public/*  ../Ali1213.github.io
+
+#
+cd ../Ali1213.github.io
+
+#
+git add .
+
+git commit -m "auto add"
+
+git push origin master
