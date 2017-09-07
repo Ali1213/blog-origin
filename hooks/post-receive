@@ -1,4 +1,9 @@
 #!/bin/sh
+unset GIT_DIR
+
+DIR_ONE=F:/blog-origin/
+
+cd $DIR_ONE
 
 #安装npm包
 npm install
