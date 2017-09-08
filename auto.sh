@@ -16,4 +16,4 @@ git add . && /
 
 git commit -a -m "auto commit by ali at `date +%Y%m%d`" && /
 
-git push origin master && /
+git push origin master
