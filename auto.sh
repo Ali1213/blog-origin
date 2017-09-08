@@ -1,6 +1,6 @@
 hexo generate
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed hexo generate"
     echo $?
@@ -9,7 +9,7 @@ fi
 
 git add .
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to git add ."
     echo $?
@@ -18,7 +18,7 @@ fi
 
 git commit -a -m "auto commit by ali at `date +%Y%m%d`"
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to git commit "
     echo $?
@@ -28,7 +28,7 @@ fi
 git push origin master
 
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to git push "
     echo $?
@@ -38,7 +38,7 @@ fi
 mv -f public/* ../Ali1213.github.io
 
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to mv "
     echo $?
@@ -49,7 +49,7 @@ fi
 cd  ../Ali1213.github.io
 
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to cd  "
     echo $?
@@ -60,7 +60,7 @@ fi
 git add .
 
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to git add "
     echo $?
@@ -70,7 +70,7 @@ fi
 git commit -a -m "auto commit by ali at `date +%Y%m%d`"
 
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to git commit "
     echo $?
@@ -79,7 +79,7 @@ fi
 
 git push origin master
 
-if [ $? ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "failed to 
 git push  "
