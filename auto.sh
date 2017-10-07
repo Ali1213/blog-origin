@@ -2,10 +2,7 @@
 
 BLOG="../Ali1213.github.io";
 
-for i in `ls $BLOG`
-do
-    `rm -rf $BLOG/$i`;
-done
+rm -rf "$BLOG/*"  &&    /
 
 hexo generate &&    /
 
