@@ -1,5 +1,5 @@
 ---
-title: 自动部署博客
+title: 自动部署hexo生成的github博客
 tags:
   - 2017年
 categories:
@@ -28,9 +28,9 @@ date: 2017-09-07 16:25:15
 
 + 删除$BLOG静态资源（有洁癖的我）
 + 用hexo生成静态资源
-+ 将hexo博客生成库推送到github
++ 将hexo博客生成库推送到github仓库
 + 将public/文件夹（静态资源）移动到$BLOG文件夹内
-+ 将$BLOG文件夹推送到github
++ 将$BLOG文件夹推送到github仓库
 
 
 
