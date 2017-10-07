@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8998539e-18d9-4792-9620-52a7727b0358" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto.sh" afterPath="$PROJECT_DIR$/auto.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/自动部署博客.md" afterPath="$PROJECT_DIR$/source/_posts/自动部署博客.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="自动部署博客.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="自动部署博客.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/自动部署博客.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auto.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auto.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/auto.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="580">
+              <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -46,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auto.sh" />
         <option value="$PROJECT_DIR$/source/_posts/自动部署博客.md" />
+        <option value="$PROJECT_DIR$/auto.sh" />
       </list>
     </option>
   </component>
@@ -231,12 +230,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507391314071</updated>
-      <workItem from="1507391315312" duration="1310000" />
+      <workItem from="1507391315312" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1310000" />
+    <option name="totallyTimeSpent" value="1430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
@@ -271,18 +270,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/自动部署博客.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding />
         </state>
       </provider>
