@@ -1,5 +1,5 @@
 ---
-title: 作用域和闭包《你不知道的JavaScript》读书笔记1
+title: 作用域和闭包《你不知道的JavaScript-上》读书笔记1
 tags:
   - 2017年
 categories:
