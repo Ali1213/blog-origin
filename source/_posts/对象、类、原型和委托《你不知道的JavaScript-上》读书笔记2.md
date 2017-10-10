@@ -76,5 +76,12 @@ date: 2017-10-10 21:33:28
 + 在继承关系中需要建立共享属性的话，还是需要用到丑陋的prototype
 
 
+## 属性的设置与屏蔽
 
+`myObject.foo = 'bar'`;
 
+当foo属性存在于原型链的上游时，会出现三种情况:
+
++ 当[[prototype]]上有foo，且writable为true时，直接在`myObject`上添加
++ 当[[prototype]]上有foo，且writable为false时，严格模式报错，非严格模式则忽略
++ 当[[prototype]]上有foo，且foo是一个setter,则调用这个setter
